@@ -47,7 +47,7 @@ namespace Test
             rowsAffects= PermissionServices.AddPermission(permission);
             if(rowsAffects == 1)
             {
-                string strMsg = "Se ha insertado correctamente.";
+                string strMsg = "Permission submitted.";
                 string script = "<script language=\"javascript\" type=\"text/javascript\">alert('" + strMsg + "');</script>";
                 Response.Write(script);
                 firstName.Text = "";
